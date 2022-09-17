@@ -50,6 +50,8 @@ class Viewproject extends Component {
                 </table>
               </div>
             </div>
+            <Link to="/applyproject" className="btn btn-success">Back</Link>
+
           </div>
         </div>
       </>

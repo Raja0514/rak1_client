@@ -44,6 +44,8 @@ class Viewproject extends Component {
                 </table>
               </div>
             </div>
+            <Link to="/post" className="btn btn-success">Back</Link>
+
           </div>
         </div>
       </>
