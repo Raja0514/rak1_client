@@ -9,6 +9,7 @@ import Applyproject from "./Components/Freelancer/Applyproject";
 import Freeview from "./Components/Freelancer/Freeview";
 import Home from "./Components/Hompage/Home";
 import Header from "./Components/Navbar/Header";
+import Privateroutes from "./Components/ProtectedRoute/Privateroutes";
 function App() {
   return (
     <>
@@ -19,10 +20,14 @@ function App() {
         <Route path="/clientsignup" element={<Clientsignup />} />
         <Route path="/freesignin" element={<Freesignin />} />
         <Route path="/freesignup" element={<Freesignup />} />
-        <Route path="/post" element={<Post />} />
         <Route path="/viewproject" element={<Viewproject />} />
-        <Route path="/applyproject" element={<Applyproject />} />
         <Route path="/freeview" element={<Freeview />} />
+
+        <Route element={<Privateroutes />}>
+          <Route path="/post" element={<Post />} />
+
+          <Route path="/applyproject" element={<Applyproject />} />
+        </Route>
       </Routes>
     </>
   );
