@@ -25,7 +25,7 @@ class Viewproject extends Component {
           <div className="row d-flex justify-content-center">
             <div className="col-md-12">
               <div className="table-responsive text-center fs-5">
-                <table className="table  table-dark table-borderless">
+                <table className="table   table-borderless">
                   <thead>
                     <tr>
                       <th>FreelancerName</th>
