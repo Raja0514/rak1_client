@@ -23,7 +23,7 @@ const Clientsignup = () => {
     } else {
       const user = { clientname, email, password, confirmPassword };
 
-      axios.post("http://localhost:3003/clientsignup", user);
+      axios.post("https://rakshanmernapp.herokuapp.com/clientsignup", user);
 
       setEmail("");
 

@@ -18,7 +18,7 @@ const Applyproject = () => {
 
     const user = { freelancername, email, experience };
 
-    axios.post("http://localhost:3003/applyproject", user);
+    axios.post("https://rakshanmernapp.herokuapp.com/applyproject", user);
 
     setEmail("");
 

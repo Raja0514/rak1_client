@@ -24,7 +24,7 @@ const Post = () => {
 
     const user = { clientname, email, responsive, frontend, backend, database };
 
-    axios.post("http://localhost:3003/postproject", user);
+    axios.post("https://rakshanmernapp.herokuapp.com/postproject", user);
 
     setEmail("");
 

@@ -8,7 +8,7 @@ class Viewproject extends Component {
     };
   }
   componentDidMount() {
-    axios.get("http://localhost:3003/projects").then((res) => {
+    axios.get("https://rakshanmernapp.herokuapp.com/projects").then((res) => {
       const projects1 = res.data;
       console.log(projects1);
       this.setState({ projects: projects1 });

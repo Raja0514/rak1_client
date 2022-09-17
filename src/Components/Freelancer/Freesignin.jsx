@@ -16,7 +16,7 @@ const Freesignin = () => {
     const user = { email, password };
 
     axios
-      .post("http://localhost:3003/freelanlogin", user)
+      .post("https://rakshanmernapp.herokuapp.com/freelanlogin", user)
 
       .then((res) => {
         localStorage.setItem("auth", JSON.stringify(res));

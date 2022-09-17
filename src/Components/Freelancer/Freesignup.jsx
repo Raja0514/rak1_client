@@ -20,7 +20,7 @@ const Freesignup = () => {
     } else {
       const user = { freelancername, email, password, confirmPassword };
 
-      axios.post("http://localhost:3003/freelansignup", user);
+      axios.post("https://rakshanmernapp.herokuapp.com/freelansignup", user);
 
       setEmail("");
 
