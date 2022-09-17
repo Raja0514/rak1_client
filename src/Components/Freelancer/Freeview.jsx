@@ -21,7 +21,7 @@ class Viewproject extends Component {
         <div className="container mt-5 py-5">
           <div className="row d-flex justify-content-center align-items-center">
             <div className="col-md-12">
-              <div className="table-responsive">
+              <div className="table-responsive text-center fs-5">
                 <table className="table">
                   <thead>
                     <tr>
