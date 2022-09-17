@@ -142,7 +142,7 @@ const Post = () => {
                   className="btn btn-secondary"
                   onClick={Handleclick}
                 >
-                  ViewProject
+                  Viewfreelancer
                 </button>
               </div>
 
