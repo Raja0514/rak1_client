@@ -68,7 +68,7 @@ const Freesignin = () => {
                   className="btn btn-secondary m-2"
                   onClick={Handleclick}
                 >
-                  Chnage to Signup
+                  Change to Signup
                 </button>
               </div>
             </form>
