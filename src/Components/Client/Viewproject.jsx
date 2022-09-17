@@ -8,7 +8,7 @@ class Viewproject extends Component {
     };
   }
   componentDidMount() {
-    axios.get("https://rakshanmernapp.herokuapp.com/projects").then((res) => {
+    axios.get("https://rakshanmernapp.herokuapp.com/getallfreelancer").then((res) => {
       const projects1 = res.data;
       console.log(projects1);
       this.setState({ projects: projects1 });
@@ -25,14 +25,18 @@ class Viewproject extends Component {
                 <table className="table">
                   <thead>
                     <tr>
-                      <th>ClientName</th>
+                      <th>FreelancerName</th>
+                      <th>Email_id</th>
+                      <th>Experience</th>
                     </tr>
                   </thead>
                   <tbody>
                     {this.state.projects.map((m) => {
                       return (
                         <tr key={m._id}>
-                          <td>{m.clientname}</td>
+                          <td>{m.freelancername}</td>
+                          <td>{m.email}</td>
+                          <td>{m.experience}</td>
                         </tr>
                       );
                     })}
