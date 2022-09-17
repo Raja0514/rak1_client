@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
-import {Link} from 'react-router-dom'
+import { Link } from "react-router-dom";
 class Viewproject extends Component {
   constructor(props) {
     super(props);
@@ -9,11 +9,13 @@ class Viewproject extends Component {
     };
   }
   componentDidMount() {
-    axios.get("https://rakshanmernapp.herokuapp.com/getallfreelancer").then((res) => {
-      const projects1 = res.data;
-      console.log(projects1);
-      this.setState({ projects: projects1 });
-    });
+    axios
+      .get("https://rakshanmernapp.herokuapp.com/getallfreelancer")
+      .then((res) => {
+        const projects1 = res.data;
+        console.log(projects1);
+        this.setState({ projects: projects1 });
+      });
   }
 
   render() {
@@ -45,8 +47,11 @@ class Viewproject extends Component {
                 </table>
               </div>
             </div>
-            <Link to="/post" className="btn btn-success">Back</Link>
-
+            <div className=" d-grid gap-2 col-md-4 mx-auto">
+              <Link to="/post" className="btn btn-success m-3">
+                Back
+              </Link>
+            </div>
           </div>
         </div>
       </>

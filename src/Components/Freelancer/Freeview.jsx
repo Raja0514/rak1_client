@@ -51,8 +51,10 @@ class Viewproject extends Component {
                 </table>
               </div>
             </div>
-            <Link to="/applyproject" className="btn btn-success">Back</Link>
+            <div className=" d-grid gap-2 col-md-4 mx-auto">
 
+            <Link to="/applyproject" className="btn btn-success m-3">Back</Link>
+</div>
           </div>
         </div>
       </>
