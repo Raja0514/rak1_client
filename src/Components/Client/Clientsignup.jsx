@@ -45,7 +45,7 @@ const Clientsignup = () => {
       <div className="container mt-5 py-5">
         <div className="row d-flex justify-content-center align-items-cenetr ">
           <div className="col-md-8 shadow px-3 py-3 mb-3  rounded ">
-            <h3 className="text-center p-3">Client-Signup </h3>
+            <h3 className="text-center p-3">Client</h3>
 
             <form className="row g-2">
               <div className="mb-2">
@@ -107,7 +107,7 @@ const Clientsignup = () => {
                   className="btn btn-secondary m-2"
                   onClick={Handleclick}
                 >
-                  Change to SignIn
+                  SignIn
                 </button>
               </div>
             </form>

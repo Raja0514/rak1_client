@@ -45,7 +45,7 @@ const Freesignup = () => {
       <div className="container mt-5 py-5">
         <div className="row d-flex justify-content-center align-items-center ">
           <div className="col-md-8 shadow p-3 mb-5  rounded ">
-            <h3 className="text-center p-3">Freelancer-signup</h3>
+            <h3 className="text-center p-3">Freelancer</h3>
 
             <form className="row g-2" onSubmit={handleSubmit}>
               <div className="mb-3">
@@ -107,7 +107,7 @@ const Freesignup = () => {
                   className="btn btn-secondary m-2"
                   onClick={Handleclick}
                 >
-                  Change to SignIn
+                  Login
                 </button>
               </div>
             </form>
