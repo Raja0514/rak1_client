@@ -83,7 +83,7 @@ const Applyproject = () => {
 
                 <div className="d-grid gap-2 col-md-2 mx-auto">
                   <button type="submit" class="btn btn-secondary">
-                    Post
+                    Apply
                   </button>
                 </div>
                 <div className="d-grid gap-2 col-md-2 mx-auto">
