@@ -24,9 +24,9 @@ function App() {
         <Route path="/freeview" element={<Freeview />} />
 
         <Route element={<Privateroutes />}>
-          <Route path="/post" element={<Post />} />
+          <Route path="/post" element={<Post />} exact to="/" />
 
-          <Route path="/applyproject" element={<Applyproject />} />
+          <Route path="/applyproject" element={<Applyproject />} exact to="/" />
         </Route>
       </Routes>
     </>
